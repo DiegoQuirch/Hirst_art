@@ -2,7 +2,7 @@ from random import choice
 from get_colors import colors_list
 import turtle as t
 
-t.colormode(255)
+t.Screen().colormode(255)
 screen = t.Screen()
 screen.setup(width=600)  # Adjust the screen width
 turtle = t.Turtle()
